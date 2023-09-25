@@ -1,0 +1,189 @@
+@media screen and (min-width: 1024px) {
+.centerModeSlide{
+    width: 60%;
+    margin-top: 5%;
+
+.image-container {
+    position: relative;
+    max-width: 98%;
+    .imgSlideCar{
+        height: 300px;
+        width: 100%;
+        border-radius: 10px;
+    }
+    .overlay {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 85.7%;
+        // height: 95%;
+        border-radius: 10px;
+        background: rgba(0, 0, 0, 0.5);
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+        text-align: left;
+        padding: 10px;
+        padding-left: 50px;
+        padding-right: 50px;
+      }
+      
+      .overlay h2 {
+        margin: 0;
+      }
+      .overlayButton{
+                transition: opacity 0.5s ease;
+                display: none;
+        }
+  }
+  .image-container:hover .overlayButton {
+        display: block;
+      }
+}
+
+// .centerModeSlide{
+//     width: 79%;
+//     margin-top: 5%;
+
+// .image-container {
+//     position: relative;
+//     max-width: 95%;
+//     .imgSlideCar{
+//         height: 400px;
+//         width: 100%;
+//         border-radius: 10px;
+//     }
+//     .overlay {
+//         position: absolute;
+//         bottom: 0;
+//         left: 0;
+//         width: 88%;
+//         // height: 100%;
+//         border-radius: 10px;
+//         // background: rgba(0, 0, 0, 0.5);
+//         color: white;
+//         display: flex;
+//         flex-direction: column;
+//         justify-content: center;
+//         align-items: flex-end;
+//         text-align: left;
+//         padding: 10px;
+//         padding-left: 50px;
+//         padding-right: 50px;
+//       }
+      
+//       .overlay h2 {
+//         margin: 0;
+//         opacity: 0;
+//         transition: opacity 0.3s ease;
+//       }
+//       .overlayButton{
+//         opacity: 0;
+//         transition: opacity 0.3s ease;
+//       }
+      
+      
+//   }
+//   .image-container:hover .overlay {
+//     background: rgba(0, 0, 0, 0.5);
+//   }
+//   .image-container:hover .overlay h2 {
+//     opacity: 1; 
+//   }
+//   .image-container:hover .overlayButton {
+//     opacity: 1;
+//   }
+// }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .centerModeSlide{
+        width: 79%;
+        margin-top: 5%;
+    
+    .image-container {
+        position: relative;
+        max-width: 95%;
+        .imgSlideCar{
+            height: 400px;
+            width: 100%;
+            border-radius: 10px;
+        }
+        .overlay {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 88%;
+            // height: 95%;
+            border-radius: 10px;
+            background: rgba(0, 0, 0, 0.5);
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-end;
+            text-align: left;
+            padding: 10px;
+            padding-left: 50px;
+            padding-right: 50px;
+          }
+          
+          .overlay h2 {
+            margin: 0;
+          }
+          .overlayButton{
+                    transition: opacity 0.5s ease;
+                    display: none;
+            }
+      }
+      .image-container:hover .overlayButton {
+            display: block;
+          }
+    }
+}
+@media screen and (max-width: 767px) {
+    .centerModeSlide{
+        width: 83%;
+        margin-top: 20%;
+    .image-container {
+        position: relative;
+        max-width: 95%;
+        .imgSlideCar{
+            height: 150px;
+            width: 100%;
+            border-radius: 10px;
+        }
+        .overlay {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 64%;
+            // height: 95%;
+            border-radius: 10px;
+            background: rgba(0, 0, 0, 0.5);
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-end;
+            text-align: left;
+            padding: 10px;
+            padding-left: 50px;
+            padding-right: 50px;
+          }
+          
+          .overlay h2 {
+            margin: 0;
+          }
+          .overlayButton{
+                    transition: opacity 0.5s ease;
+                    display: none;
+            }
+      }
+      .image-container:hover .overlayButton {
+            display: block;
+          }
+    }
+}

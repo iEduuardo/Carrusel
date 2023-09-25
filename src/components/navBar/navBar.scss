@@ -1,0 +1,201 @@
+@media screen and (min-width: 1024px) {
+    //Desktop
+    nav {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: "Montserrat Medium";
+      width: 100%;
+      position: fixed;
+      z-index: 999;
+      top: 0;
+      margin-top: 1%;
+      margin-bottom: 1%;
+      .navCol {
+        width: 76%;
+        border: 2px solid rgba(255, 255, 255, 0.05);
+        border-radius: 24px;
+        color: white;
+        padding: 2px 18px;
+        backdrop-filter: blur(30px);
+      }
+      .box-brand {
+        img {
+          height: 50px;
+        }
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 100%;
+        a {
+          color: var(--primaryColor);
+          text-decoration: none;
+        }
+        .btn {
+          font: inherit;
+          border: none;
+          border-radius: 20px;
+          min-width: 120px;
+          height: 30px;
+          background: var(--primaryColor);
+          color: var(--secondaryColor) !important;
+        }
+      }
+    }
+  }
+  
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+    nav {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: "Montserrat Medium";
+      width: 100%;
+      position: fixed;
+      z-index: 999;
+      top: 0;
+      margin-top: 5%;
+      margin-bottom: 1%;
+      .navCol {
+        width: 100%;
+        border: 2px solid rgba(255, 255, 255, 0.05);
+        border-radius: 24px;
+        color: white;
+        padding: 2px 18px;
+        backdrop-filter: blur(30px);
+      }
+      .box-brand {
+        img {
+          height: 50px;
+          // padding-right: 50px;
+        }
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;    
+        width: 100%;
+        a {
+          color: var(--primaryColor);
+          text-decoration: none;
+        }
+        .btn {
+          font: inherit;
+          border: none;
+          border-radius: 20px;
+          min-width: 120px;
+          height: 30px;
+          background: var(--primaryColor);
+          color: var(--secondaryColor) !important;
+        }
+      }
+      .box-brand1 {
+        .Menus {
+          width: 100%;
+          justify-content: space-around;
+        }
+        img {
+          height: 50px;
+        }
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        flex-direction: column;
+        a {
+          color: var(--primaryColor);
+          text-decoration: none;
+        }
+        .top {
+          padding-left: 20px;
+        }
+        .btn {
+          font: inherit;
+          border: none;
+          border-radius: 20px;
+          min-width: 80px;
+          height: 30px;
+          background: var(--primaryColor);
+          color: var(--secondaryColor) !important;
+        }
+      }
+    }
+  }
+  
+  @media screen and (max-width: 767px) {
+    nav {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: "Montserrat Medium";
+      width: 100%;
+      position: fixed;
+      z-index: 999;
+      top: 0;
+      margin-top: 5%;
+      margin-bottom: 1%;
+      height: auto;
+      .navCol {
+        width: 95%;
+        border: 2px solid rgba(255, 255, 255, 0.05);
+        border-radius: 24px;
+        color: white;
+        padding: 2px 18px;
+        backdrop-filter: blur(30px);
+      }
+      .box-brand {
+        img {
+          height: 50px;
+          // padding-right: 50px;
+        }
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        // justify-content: center;
+        width: 100%;
+        a {
+          color: var(--primaryColor);
+          text-decoration: none;
+        }
+        .btn {
+          font: inherit;
+          border: none;
+          border-radius: 20px;
+          min-width: 120px;
+          height: 30px;
+          background: var(--primaryColor);
+          color: var(--secondaryColor) !important;
+        }
+      }
+      .box-brand1 {
+        .Menus {
+          display: flex;
+          width: 95%;
+          justify-content: space-around;
+          align-items: center;
+        }
+        img {
+          height: 50px;
+        }
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 100%;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        flex-direction: column;
+        a {
+          color: var(--primaryColor);
+          text-decoration: none;
+        }
+        .btn {
+          font: inherit;
+          border: none;
+          border-radius: 20px;
+          min-width: 80px;
+          height: 30px;
+          background: var(--primaryColor);
+          color: var(--secondaryColor) !important;
+        }
+      }
+    }
+  }
