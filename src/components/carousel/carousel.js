@@ -34,7 +34,7 @@ function Carrusel(props) {
             autoplay
             autoplaySpeed={6000}
             dots
-            // arrows={false}
+            arrows={false}
             >
             {slides.map((item, index) => (
                 <div key={index} className="image-container">
