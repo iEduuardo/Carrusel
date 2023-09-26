@@ -60,6 +60,7 @@ function Carrusel(props) {
         <p>Tamaño máximo </p>
         <p>Se puede visitar <a href="/admin">Administración</a> en versión solo visual</p>
         <p>Se puede visitar <a href="/login">Login</a>en versión solo visual</p>
+        <p>El carrusel se detiene cuando el mouse está encima de él</p>
         </>
     );
 }
