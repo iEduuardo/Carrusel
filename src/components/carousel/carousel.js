@@ -9,7 +9,6 @@ import { DownloadOutlined } from '@ant-design/icons';
 
 function Carrusel(props) {
     const settings = {
-        // className: "center",
         centerMode: true,
         infinite: true,
         // centerPadding: "60px",
