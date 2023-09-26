@@ -58,6 +58,8 @@ function Carrusel(props) {
         <p>El tamaño del botón puede cambiar</p>
         <p>Se pueden ocular puntos de carrusel y flechas</p>
         <p>Tamaño máximo </p>
+        <p>Se puede visitar <a href="/admin">Administración</a> en versión solo visual</p>
+        <p>Se puede visitar <a href="/login">Login</a>en versión solo visual</p>
         </>
     );
 }
