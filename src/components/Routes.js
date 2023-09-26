@@ -4,7 +4,6 @@ import Home from "./Home";
 import Login from "./login/login";
 import Admin from "./admin/admin";
 
-
 const Rutas = () => {
     return (
         <Router>
