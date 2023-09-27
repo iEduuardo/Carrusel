@@ -15,8 +15,9 @@
         position: absolute;
         bottom: 0;
         left: 0;
-        width: 85.7%;
-        // height: 95%;
+        right: 0;
+        // width: 85.7%;
+        height: max-content;
         border-radius: 10px;
         background: rgba(0, 0, 0, 0.5);
         color: white;
@@ -28,6 +29,7 @@
         padding: 10px;
         padding-left: 50px;
         padding-right: 50px;
+        transition: .2s ease-in-out
       }
       
       .overlay h2 {
